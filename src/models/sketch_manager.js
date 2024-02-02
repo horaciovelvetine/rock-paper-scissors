@@ -60,12 +60,12 @@ export default class SketchManager {
 
   createEmojis() {
     const emojis = [];
-    const x = this.sketch.random(this.getWidth());
-    const y = this.sketch.random(this.getHeight());
     const speed = this.sketch.random(this.getSpeed());
     const size = this.getEmojiSize();
 
     for (let i = 1; i <= this.getEmojiCount(); i++) {
+      const x = this.sketch.random(this.getWidth());
+      const y = this.sketch.random(this.getHeight());
       emojis.push(new Emoji(i, x, y, speed, size, this.grid));
     }
 
