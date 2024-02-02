@@ -42,5 +42,11 @@ Note that if after this last command you do not see anything, you can use instea
 
 #### Examples
 
-![A gif!](src/assets/Screenshot.png)
+![Default view](src/assets/rock-paper-scissors-default.png)
+
+- A default view of the game, with the emoji's in their starting positions.
+
+![Features view](src/assets/rock-paper-scissors-feat.png)
+
+- Demonstrating the collision radius display, and velocity speed display enabled in the sidebar.
 
